@@ -4,7 +4,6 @@ let browser, page;
 const puppeteerArgs = [
     `--disable-extensions-except=${__dirname}`,
     `--load-extension=${__dirname}`,
-    '--show-component-extension-options',
     '--disable-features=DialMediaRouteProvider',
 ];
 
